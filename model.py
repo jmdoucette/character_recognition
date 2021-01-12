@@ -5,8 +5,9 @@ Created on Sun Jan 10 19:32:06 2021
 
 @author: jamesdoucette
 """
-import tensorflow as tf
 import numpy as np
+import tensorflow as tf
+
 
 from sklearn.metrics import classification_report
 from emnist import extract_training_samples,extract_test_samples
