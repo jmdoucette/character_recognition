@@ -5,7 +5,6 @@ Created on Sun Jan 10 19:40:20 2021
 
 @author: jamesdoucette
 """
-import pandas as pd
 import numpy as np
 import tensorflow as tf
 
@@ -13,9 +12,6 @@ from model import *
 
 from PIL import Image
 import streamlit as st
-from skimage.util import img_as_float,img_as_ubyte
-from skimage import color
-from  skimage.transform import resize
 from streamlit_drawable_canvas import st_canvas
 
 def convert_image(im):
