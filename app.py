@@ -14,9 +14,9 @@ from PIL import Image
 import streamlit as st
 from streamlit_drawable_canvas import st_canvas
 
-from scikit-image.util import img_as_float,img_as_ubyte
-from scikit-image import color
-from  scikit-image.transform import resize
+from skimage.util import img_as_float,img_as_ubyte
+from skimage import color
+from  skimage.transform import resize
 
 def convert_image(im):
     return img_as_ubyte(resize(color.rgba2rgb(img_as_ubyte(im)), (28, 28),anti_aliasing=True))
