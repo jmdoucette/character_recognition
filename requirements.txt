@@ -7,4 +7,4 @@ numpy==1.18.5
 scikit_image==0.16.2
 Pillow==8.1.0
 scikit_learn==0.24.0
-skimage==0.0
+scikit-image==0.0
