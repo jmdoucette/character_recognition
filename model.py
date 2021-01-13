@@ -12,9 +12,9 @@ import tensorflow as tf
 from sklearn.metrics import classification_report
 from emnist import extract_training_samples,extract_test_samples
 
-from scikit_image.util import img_as_float,img_as_ubyte
-from scikit_image import color
-from  scikit_image.transform import resize
+from skimage.util import img_as_float,img_as_ubyte
+from skimage import color
+from  skimage.transform import resize
 
 def convert_to_image(data):
     data = data / 255.0
